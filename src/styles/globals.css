@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply text-gray-800 bg-background;
+}
+
+.shadow-neo {
+  box-shadow: 5px 5px 0px 0px rgba(0,0,0,0.1);
+}
+
+.transform-gpu {
+  transform: translateZ(0);
+}
